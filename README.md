@@ -1,7 +1,14 @@
-# SLUI (SmartTV L-back UI)
+# SLUI (SmartTV Leanback UI)
 
 A lightweight, zero-dependency (Vanilla JS) general-purpose UI component library **inspired by Leanback**, designed for Smart TV application development.
 By simply loading a single `<script>` tag, you get standard Web Components optimized for 10-foot TV interfaces—featuring spatial D-pad navigation, automatic screen scaling, an on-screen keyboard, and media cards.
+
+## 📸 Screenshots
+
+| Main Activity | Keyboard |
+| :---: | :---: |
+| ![Main Activity](./lb1.png) | ![Keyboard](./lb2.png) |
+
 ## 🌐 Supported Platforms
 
 Built purely on standard browser technologies (Custom Elements v1 / Shadow DOM), SLUI runs natively across major Smart TV web engines:
@@ -191,9 +198,9 @@ go("search");
 | :--- | :--- | :--- |
 | **Core & Screens** | `<ui-stage>` | Manages 1920×1080 auto-scaling and spatial D-pad focus navigation. |
 | | `<ui-screen>` | Full-size screen container toggled via the `active` attribute. |
-| **Navigation** | `<ui-rail>` | Collapsible side navigation rail (`collapsed` attribute, `leading` slot). |
-| | `<ui-rail-item>` | Menu item inside a rail (`selected` attribute, `icon` slot). |
 コードは注意してご使用ください。
+| Navigation | <ui-rail> | Collapsible side navigation rail (collapsed attribute, leading slot). |
+| | <ui-rail-item> | Menu item inside a rail (selected attribute, icon slot). |
 | Content | <ui-section> | Horizontal content row with a title slot. Highlights when active. |
 | | <ui-card> | Media card (variant="wide\|dark\|light\|lift\|dim\|select", media/badge/title/subtitle slots). |
 | | <ui-tile> | Lightweight tile element (variant="solid\|lift\|gradient"). |
